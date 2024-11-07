@@ -76,7 +76,7 @@ li a {
     flex-direction: column;
     padding-left: 15%;
     padding-right: 5%;
-    color: #black;
+    color: black;
 }
 
 .career {
@@ -84,7 +84,7 @@ li a {
     flex-direction: column;
     padding-left: 20%;
     padding-right: 5%;
-    color: #black;
+    color: black;
 }
 
 .tonystark {
@@ -92,7 +92,7 @@ li a {
     flex-direction: column;
     padding-left: 15%;
     padding-right: 2%;
-    color: #black;
+    color: black;
 }
 
 .careercont {
@@ -100,7 +100,7 @@ li a {
     flex-direction: column;
     padding-left: 15%;
     padding-right: 2%;
-    color: #black;
+    color: black;
 }
 
 .acco {
@@ -108,7 +108,7 @@ li a {
     flex-direction: column;
     padding-left: 15%;
     padding-right: 2%;
-    color: #black;
+    color: black;
     padding-bottom: 5%;
 }
 
