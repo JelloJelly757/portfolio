@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #24252A; 
+    background-color: #D3D9D4; 
 }
 
 body {
@@ -10,16 +10,21 @@ body {
 }
 
 .navbar{
-    display:flex; 
-    width: 100%;
-    height: 75px; 
-    justify-content: flex-start;
-    align-items: center; 
+    height: 100%; 
+    width: 160px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #2E3944; 
+    overflow-x: hidden;
+    padding-top: 20px;
+    a:hover {
+        text-decoration: underline; 
+    }
 }
 
 ul{
-    display:flex; 
-    justify-content: flex-end; 
     list-style: none;
     margin: 0;
     padding: 0; 
@@ -31,22 +36,102 @@ li a {
     align-items: center; 
     text-decoration: none; 
     color: white; 
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 23px 20px;   
 }
 
-a:hover {
-    text-decoration: underline; 
+
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    height: 75px; 
+    width: 100%; 
+    padding: 20px;
+    background-color: #124E66;
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.port-page {
-    background-color: #24252A; 
-    color: white; 
-    padding-left: 30px; 
+.texttopnav {
+    padding-left: 13.5%;
+    padding-bottom: 10%;
+}
+
+.searchbar {
+    padding-left: 50%;
+    padding-top: 2%;
+}
+
+.wholething {
+    display: flex;
+    flex-direction: column;
+}
+
+.elife {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 5%;
+    color: #black;
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 5%;
+    color: #D3D9D4;
+}
+
+.tonystark {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 2%;
+    color: #black;
+}
+
+.careercont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 2%;
+    color: #black;
+}
+
+.acco {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 2%;
+    color: #black;
+    padding-bottom: 5%;
 }
 
 img {
-    width: 45%;
-    height: auto; 
-    padding-left: 340px; 
+    width: 350px;
+    height: auto;
+    padding-top: 27%;
 }
+
+.bigpart {
+    display: flex;
+    flex-direction: row;
+}
+
+.biggerthing {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #748D92;
+    color: black;
+    padding-left: 12%;
+  }
